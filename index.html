@@ -1,70 +1,111 @@
 <!DOCTYPE>
-<html>
+<html lang="en">
 
-<head>
+    <head>
 
-<style>
+        <style>
+            img {
+                width:50px;
+                height:50px;
+                justify-content: center;
 
-h1 {
-text-align: center;
-}
-.myDiv {
-border: 5px;
-background-color: #708090;
-text-align: center;
+            } 
 
+            
 
-}
+            h1 {
+            text-align: center;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            }
 
-.myDiv2 {
-border: 5px;
-background-color: white;
-text-align: center;
+            .myDiv {
+            border: 5px;
+            padding: 5%;
+            background-color: #525489;
+            text-align: center;
+            width: 250px;
+            }
 
-}
+            .myDiv2 {
+            border: 5px;
+            background-color: white;
+            text-align: center;
 
-.myDiv3 {
-border: none;
-background-color: white;
-text-align: center; font-size: ;
+            }
 
-}
+            .myDiv3 {
+            border: none;
+            background-color: white;
+            text-align: center; 
 
-</style>
+            }
 
-</head>
+            input {
+                border-radius: 4px;
+                width: 90%;
+                border: 1px;
+                box-sizing: border-box;
+                height: 25px;
+                
+            }
 
-<body>
+            input:focus {
+                border: 2px solid blue;
+            } 
 
-<h1>Sign in to GitHub</h1>
-<div class="myDiv">
+            li {
+                display:inline
+            }
 
-<form action="/action_page.php">
-<lable for="u1">Username or Email address</lable><br>
-<input type="text" id="u1" name="u1"><br>
+            button {
+                background-color:  green;
 
-<lable for="pwd">Password</lable>
-<a href="">Forgot password?</a><br>
-<input type="password" id="Password" name="pwd"><br>
-
-<input type="submit" value="Sign in">
-
-</div>
-
-<div class="myDiv2">
-<p>New to GitHub?
-<a href="">Create an account</a></p>
-</div>
-
-<div class="myDiv3">
-<a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"/>Terms</a>
-<a href="">Privacy</a>
-<a href="">Securtiy</a>
-<a href="">Contact GitHub</a></div>
-</form>
-
-</body>
+            }
 
 
+        </style>
 
-</html>
+    </head>
+
+    <body>
+     
+        <img class src="https://github.githubassets.com/pinned-octocat.svg" alt="github logo">
+        
+        
+        <h1>Sign in to GitHub</h1>
+        <div class="myDiv">
+
+            <form action="/action_page.php">
+                <lable for="u1">Username or Email address</lable><br>
+                <input type="text" id="u1" name="u1"><br>
+
+                <lable for="pwd">Password</lable>
+                <a href="">Forgot password?</a><br>
+                <input type="password" id="Password" name="pwd"><br>
+
+                <input type="button" id="Sign In" value="sign in">
+                
+            </form>
+
+        </div>
+
+        <div class="myDiv2">
+            <p>New to GitHub?
+            <a href="">Create an account</a></p>
+        </div>
+
+        <div class="myDiv3">
+            <ul class="list-style-none flex-justify-center">
+                <li><a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a></li>
+                <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Privacy</a></li>
+                <li><a href="https://github.com/security">Securtiy</a></li>
+            <a href="">Contact GitHub</a>
+            </ul>
+        </div>
+       
+
+    </body>
+
+
+
+</html> 
