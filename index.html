@@ -1,111 +1,83 @@
-<!DOCTYPE>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
-    <head>
+<head>
 
-        <style>
-            .flex-container {
-                display: flex;
-                flex-direction: column;
-               align-items : center;
-            }
-            
-            .img {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            } 
+<style>
 
-            .h1 {
-            text-align: center;
-            font-style: times;
-            }
+h1 {
+text-align: center;
+margin-top: 35px;
+}
 
-            .label {
-                border-width: 5px;
-                border-radius: 3%;
-                margin: 10 px 285px;
-                padding: 20%;
-                background-color: lightskyblue;
-            }
+.flex-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
-          /*  .myDiv {
-            border: 5px;
-            padding: 5%;
-            background-color: #525489;
-            text-align: center;
-            width: 250px;
-            }
+.myDiv {
+border: 5px;
+background-color: #1c9bd6;
+text-align: center;
+height: 40%;
+width: 50%;
+padding-top: 15px;
 
-            .myDiv2 {
-            border: 5px;
-            background-color: white;
-            text-align: center;
+}
 
-            }
+input {
+    height: 8%;
+    width: 90%;
+}
 
-            .myDiv3 {
-            border: none;
-            background-color: white;
-            text-align: center; 
+.myDiv2 {
+border: 5px;
+background-color: white;
+text-align: center;
 
-            }
+}
 
-            input {
-                border-radius: 4px;
-                width: 90%;
-                border: 1px;
-                box-sizing: border-box;
-                height: 25px;
-                
-            }
+.myDiv3 {
+border: none;
+background-color: white;
+text-align: center; font-size: ;
 
-            input:focus {
-                border: 2px solid blue;
-            } */
+}
 
-            li {
-                display:inline
-            }
+</style>
 
-           /* button {
-                background-color:  green;
+</head>
 
-            } */
+<body class="flex-container">
 
+<h1>Sign in to GitHub</h1>
+<div class="myDiv">
 
-        </style>
+<form action="/action_page.php">
+<lable for="u1">Username or Email address</lable><br>
+<input type="text" id="u1" name="u1"><br>
 
-    </head>
+<lable for="pwd">Password</lable>
+<a href="">Forgot password?</a><br>
+<input type="password" id="Password" name="pwd"><br>
 
-    <body class="">
-        <div class="flex-container">
-            <img class src="https://github.githubassets.com/pinned-octocat.svg" alt="github logo" style="width: 50px">
-            <h1>Sign in to GitHub</h1>
-            <form action="/action_page.php">
-        
-                <div class="label">
-                    <lable for="u1">Username or Email address</lable><br>
-                    <input type="text" id="u1" name="u1"><br>
+<input type="submit" value="Sign in">
 
-                    <lable for="pwd">Password</lable>
-                    <a href="">Forgot password?</a><br>
-                    <input type="password" id="Password" name="pwd"><br>
-                    <input type="button" id="Sign In" value="sign in">         
-                </div>
-                    <p1>New to GitHub?
-                    <a href="">Create an account</a></p>
+</div>
 
-                    <p2>
-                        <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a>
-                        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">Privacy</a>
-                        <a href="https://github.com/security">Securtiy</a>
-                        <a href="">Contact GitHub</a>
-                    </p2>
-            </form>
-        </div>
-    </body>
+<div class="myDiv2">
+<p>New to GitHub?
+<a href="">Create an account</a></p>
+</div>
 
+<div class="myDiv3">
+<a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"/>Terms</a>
+<a href="">Privacy</a>
+<a href="">Securtiy</a>
+<a href="">Contact GitHub</a></div>
+</form>
 
+</body>
 
-</html> 
+</html
