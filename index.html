@@ -19,7 +19,8 @@
     .logo {
         width: 50px;
         height: 50px;
-        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 600px;
 }
     h1 {
         text-align: center;
@@ -41,7 +42,7 @@
     input {
         margin: 20px 10px;
         background-color: white;
-        border-color: lightblue;
+        border-color: gray;
         border: 10px;
         height: 30px;
         width: 260px;
@@ -63,6 +64,10 @@
     }
         a {
             padding-left: 80px;
+        }
+
+        p {
+            display: flex;
         }
 
     .myDiv2 {
@@ -90,7 +95,6 @@
     }
     li {
         padding-right: 10px;
-        /*color: dodgerblue;*/
     }
 
 </style>
@@ -98,10 +102,11 @@
 </head>
 
 <body>
-<div class="container">
     <div class="logo"> 
-            <img src="https://github.githubassets.com/pinned-octocat.svg" alt="github logo">
-    </div>
+        <img src="https://github.githubassets.com/pinned-octocat.svg" alt="github logo">
+</div><br>
+<div class="container">
+    
     <h1>Sign in to GitHub</h1>
     <form action="/action_page.php">
         <div class="myDiv">
@@ -115,7 +120,7 @@
     
         <div class="myDiv2">
             <p style="color: darkgrey;">New to GitHub?
-            <a href="">Create an account</a></p>
+            <p style="color: dodgerblue;">Create an account.</p>
         </div>
     </form>
          <footeer class="myDiv3">
